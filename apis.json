@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Viewing",
+	"description": "This is a repository of viewing APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/viewing.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://viewing.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Viewing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/viewing/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Viewing",
+	"include": [
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/viewing/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
